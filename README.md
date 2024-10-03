@@ -21,7 +21,7 @@
 
 ### 스터디 개요
 
-* 기간 : 2024.09 ~
+* 기간 : 2024. 10 ~
 * 진행 시간 : 미정
 * 진행 방식 : **북스터디** 📚
 
@@ -54,9 +54,30 @@
     2. 공부한 내용을 정리하여 업로드하는 것을 잊지 말아주세요!
     3. 맡은 발표는 성실하게 준비하여 진행해 주세요!
 
-**모두가 함께 Level Up 할 수 있는 스터디가 되었으면 좋겠습니다!**
+**모두가 함께 Level Up 할 수 있는 스터디가 되었으면 좋겠습니다!**'
 
-### 
-| [<img src="https://github.com/seokkkkkk.png">](https://github.com/seokkkkkk) |
-|:---:|
-정윤석(스터디장)|
+### 스터디 일정 공유
+
+| 주차 | 아이템 | 장 | 개수 | 날짜 | 진행 |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1주 | 아이템 1~5 | 1장 | 5개 | 24. 10. 03 ~ 10. 07 | 진행 중 |
+| 2주 | 아이템 6~12 | 2장 1/2 | 7개 | | 진행 전 |
+| 3주 | 아이템 13~18 | 2장 | 6개 | | 진행 전 |
+| 4주 | 아이템 19~22 | 3장 1/2 | 4개 | | 진행 전 |
+| 5주 | 아이템 23~27 | 3장 | 5개 | | 진행 전 |
+| 6주 | 아이템 28~32 | 4장 1/2 | 5개 | | 진행 전 |
+| 7주 | 아이템 33~37 | 4장 | 5개 | | 진행 전 |
+| 8주 | 아이템 38~44 | 5장 | 7개 | | 진행 전 |
+| 9주 | 아이템 45~52 | 6장 | 8개 | | 진행 전 |
+| 10주 | 아이템 53~62 | 7~8장 | 10개 | | 진행 전 |
+
+### 스터디 멤버
+
+| [<img src="https://github.com/seokkkkkk.png" width="100">](https://github.com/seokkkkkk) | [<img src="https://github.com/KimDaegyu-Dev.png" width="100">](https://github.com/KimDaegyu-Dev) | [<img src="https://github.com/haneulkimhera.png" width="100">](https://github.com/haneulkimhera) | [<img src="https://github.com/kyinn1307.png" width="100">](https://github.com/kyinn1307) |
+|:---:|:---:|:---:|:---:|
+정윤석(스터디장) | 김대규(스터디원) | 김하늘(스터디원) | 노경인(스터디원) |
+
+| [<img src="https://github.com/Minhyuk12.png" width="100">](https://github.com/Minhyuk12) | [<img src="https://github.com/4ch1o3.png" width="100">](https://github.com/4ch1o3) | [<img src="https://github.com/xxrainow.png" width="100">](https://github.com/xxrainow) | [<img src="https://github.com/jungmin0432.png" width="100">](https://github.com/jungmin0432) |
+|:---:|:---:|:---:|:---:|
+이민혁(스터디원) | 이지원(스터디원) | 신지우(스터디원) | 허정민(스터디원) |
+
