@@ -15,8 +15,6 @@
 - 자바스크립트 프로그램이 타입스크립트라는 명제는 참이지만, 그 반대는 성립하지 않습니다.
   - 이는 타입스크립트가 타입을 명시하는 추가적인 문법을 가지기 때문.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8e2df0eb-1ad3-4acb-a162-511b7b9230ed/8cb4e985-0f53-4f43-8038-38c877d75f7c/image.png)
-
 <aside>
 💡
 
@@ -32,9 +30,8 @@
 - 설정 파일 생성
 
 <aside>
-<img src="/icons/code_gray.svg" alt="/icons/code_gray.svg" width="40px" />
 
-tsc —init
+`tsc —init`
 
 </aside>
 
