@@ -11,7 +11,7 @@
 
 ---
 
-## item 6. 편집기를 사용하여 타입 시스템 탐색하기
+## Item 6. 편집기를 사용하여 타입 시스템 탐색하기
 
 ### 추론 타입 확인하기
 
@@ -64,7 +64,7 @@
 
 ---
 
-## item 7.  타입이 값들의 집합이라고 생각하기
+## Item 7.  타입이 값들의 집합이라고 생각하기
 
 ### 타입체커의 관점에서 타입
 
@@ -203,7 +203,7 @@ type PersonOrLifespan = Person | Lifespan;
 
 ---
 
-## item 8. 타입 공간과 값 공간의 심벌 구분하기
+## Item 8. 타입 공간과 값 공간의 심벌 구분하기
 
 타입스크립트의 심벌（symbol）은 타입 공간이나 값 공간 중의 한 곳에 존재한다
 
@@ -241,7 +241,7 @@ type PersonOrLifespan = Person | Lifespan;
 
 ---
 
-## item 9. 타입 단언보다는 타입 선언을 사용하기
+## Item 9. 타입 단언보다는 타입 선언을 사용하기
 
 ### 변수에 값을 할당하고 타입을 부여하는 방법
 
@@ -294,7 +294,7 @@ type PersonOrLifespan = Person | Lifespan;
 
 ---
 
-## item 10. 객체 래퍼 타입 피하기
+## Item 10. 객체 래퍼 타입 피하기
 
 ### 기본형 타입과 객체 래퍼 타입
 
@@ -330,7 +330,7 @@ type PersonOrLifespan = Person | Lifespan;
 
 ---
 
-## item 11. 잉여 속성 체크의 한계 인지하기
+## Item 11. 잉여 속성 체크의 한계 인지하기
 
 ### 잉여 속성 체크
 
@@ -387,7 +387,7 @@ type PersonOrLifespan = Person | Lifespan;
 
 ---
 
-## item 12. 함수 표현식에 타입 적용하기
+## Item 12. 함수 표현식에 타입 적용하기
 
 ### 함수 문장과 함수 표현식
 
@@ -469,3 +469,6 @@ type PersonOrLifespan = Person | Lifespan;
           return response;
         };
         ```
+---
+### 📸 week2 인증사진
+<img width="1582" alt="Screenshot 2024-10-14 at 8 27 22 PM" src="https://github.com/user-attachments/assets/511b239f-039f-47ae-a12d-7dad8518a2d1">
