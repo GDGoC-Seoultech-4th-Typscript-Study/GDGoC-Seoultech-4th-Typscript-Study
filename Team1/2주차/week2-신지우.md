@@ -27,7 +27,8 @@
 
     
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8e2df0eb-1ad3-4acb-a162-511b7b9230ed/d49bbb12-6505-40f5-b893-3a19007320a7/image.png)
+![image](https://github.com/user-attachments/assets/ad50fd25-1c68-47f7-ad29-33fff8f48733)
+
 
 - 타입을 값의 집합이라고 생각하면 이해하기 편하다.
 - 한 객체의 추가적인 속성이 타입 선언에 언급되지 않더라도 그 타입에 속할 수 있다.
@@ -96,7 +97,6 @@ const bob = { name: 'Bob' } as Person;
 string 동작 과정
 
 <aside>
-<img src="/icons/code_gray.svg" alt="/icons/code_gray.svg" width="40px" />
 
 ‘primitive’.charAt(3)                          
 
