@@ -752,7 +752,7 @@ const rocket: Rocket = {
 
 ---
 
-## 궁금한 점 : const와 readonly의 차이
+## ❓궁금증 : const와 readonly의 차이
 
 `const`와 `readonly`는 둘 다 값을 변경하지 못하게 제한하는 용도로 사용되지만, 적용 범위와 대상이 다르며 동작 방식에도 차이가 있다. 
 
