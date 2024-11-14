@@ -842,4 +842,4 @@ A. ArrayLike 객체는 배열처럼 동작하지만 실제 배열은 아니고, 
 
 ---
 ## 📸 week3 활동 사진
-![KakaoTalk_Photo_2024-11-14-18-17-31](https://github.com/user-attachments/assets/33b0afd9-9a58-419b-9354-3d512c51ba38)
+<img width="500" alt="Screenshot 2024-10-14 at 8 27 22 PM" src="https://github.com/user-attachments/assets/33b0afd9-9a58-419b-9354-3d512c51ba38">
