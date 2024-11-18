@@ -357,10 +357,10 @@ fetchProductBySerialMimber(serial); // 정상
 
 별도의 변수 도입시
 
-- **** 서로 관련이 없는 두 개의 값을 분리한다.(id와 serial).
-- **** 변수명을 더 구체적으로 지을 수 있다.
-- **** 타입 추론을 향상시키며, 타입 구문이 불필요해진다.
-- **** 타입이 좀 더 간결해진다.(string |number 대신 string과 number를 사용).
+- 서로 관련이 없는 두 개의 값을 분리한다.(id와 serial).
+- 변수명을 더 구체적으로 지을 수 있다.
+- 타입 추론을 향상시키며, 타입 구문이 불필요해진다.
+- 타입이 좀 더 간결해진다.(string |number 대신 string과 number를 사용).
 - let 대신 const로 변수를 선언하게 된다. const로 변수를 선언하면 코드가 간결해지고, 타입 체커가 타입을 추론하기에도 좋다.
 
 
@@ -482,11 +482,9 @@ const mixed = ['x', 1];
 - [any, any]
 - any[]
 
-* 타입스크립트가 작성자의 의도를 추측((string|number) []으로 추측)
-
-* 타입스크립트는 x의 타입을 string으로 추론할 때, 명확성(const)과 유연성(let) 사이의 균형을 유지하려고 한다. 
-
-* 초기값으로 혼합된 타입(string | RegExp, string | string[]) 보다는 단일 타입(string)을 사용하는 게 낫다. 복잡하기 때문. 
+타입스크립트가 작성자의 의도를 추측((string|number) []으로 추측)
+타입스크립트는 x의 타입을 string으로 추론할 때, 명확성(const)과 유연성(let) 사이의 균형을 유지하려고 한다. 
+초기값으로 혼합된 타입(string | RegExp, string | string[]) 보다는 단일 타입(string)을 사용하는 게 낫다. 복잡하기 때문. 
 
 **넓히기**
 
