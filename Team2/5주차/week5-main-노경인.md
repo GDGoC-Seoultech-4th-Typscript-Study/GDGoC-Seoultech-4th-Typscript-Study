@@ -275,13 +275,101 @@ _.compact([0, 1, false, 2, '', 3]);
 로대시 라이브러리를 사용하면 타입 정보가 잘 유지됨. → 매개변수 값을 건드리지않고 매번 새로운 값을 반환하여 새로운 타입으로 안전하게 반환이 가능함.
 
 
-### 궁금한 점 - 경인
+***
+
+## 경인 : 궁금한 점
+
 Q. 아이템23 파트에서, 타입으로 start와 end가 들어있는데 start or end를 각각 따로 읽을 수 없는 이유?
-A. 유니온 타입에서 특정 필드(start)를 접근하려면 TypeScript가 해당 필드가 모든 구성 요소에 존재한다고 확신해야 합니다. 하지만 위의 정의에서는 start와 end가 첫 번째 타입에만 존재하고, 두 번째 타입에는 존재하지 않습니다.
+A. 유니온 타입에서 특정 필드(start)를 접근하려면 TypeScript가 해당 필드가 모든 구성 요소에 존재한다고 확신해야 합니다. 하지만 위의 정의에서는 start와 end가 첫 번째 타입에만 존재하고, 두 번째 타입에는 존재하지 않음
 
-따라서, TypeScript는 안전성을 보장하기 위해 pharaoh가 첫 번째 타입이라는 것을 확정하지 않는 한 start 필드에 접근을 허용하지 않습니다.
+따라서, TypeScript는 안전성을 보장하기 위해 pharaoh가 첫 번째 타입이라는 것을 확정하지 않는 한 start 필드에 접근을 허용하지 않음
 
+---
 
+## 하늘 : 더 알아볼 점 : 비동기 코드와 async/await의 조합
+
+### Promise.all과 async/await의 조합
+
+`async/await`는 비동기 코드를 더 직관적이고 동기적인 코드처럼 작성할 수 있게 해주는 구문이고, `Promise.all`은 여러 개의 비동기 작업을 병렬로 처리하는 데 유용한 메서드이다. 이 두 가지를 결합하면, 여러 비동기 작업을 병렬로 실행하면서도 코드를 깔끔하게 유지할 수 있다.
+
+- 예시: `Promise.all`과 `async/await`의 조합
+    
+    ```tsx
+    async function fetchData() {
+        const url1 = "https://api.example.com/data1";
+        const url2 = "https://api.example.com/data2";
+    
+        try {
+            // 여러 비동기 작업을 병렬로 실행
+            const [data1, data2] = await Promise.all([fetch(url1), fetch(url2)]);
+            
+            // 데이터 처리
+            const jsonData1 = await data1.json();
+            const jsonData2 = await data2.json();
+    
+            console.log(jsonData1, jsonData2);
+        } catch (error) {
+            console.error("데이터를 가져오는 데 오류가 발생했습니다:", error);
+        }
+    }
+    
+    fetchData();
+    ```
+    
+
+### 병렬 실행과 직렬 실행의 차이
+
+- **병렬 실행**
+    - `Promise.all`을 사용하면 여러 비동기 작업을 동시에 시작하여, 모든 작업이 완료될 때까지 기다린다. 각 작업은 서로 독립적으로 실행되므로, 작업이 완료되는 순서에 관계없이 기다리지 않고 동시에 처리된다.
+        
+        ```tsx
+        async function fetchData() {
+            const url1 = "https://api.example.com/data1";
+            const url2 = "https://api.example.com/data2";
+        
+            try {
+                // 여러 비동기 작업을 병렬로 실행
+                const [data1, data2] = await Promise.all([fetch(url1), fetch(url2)]);
+                
+                // 데이터 처리
+                const jsonData1 = await data1.json();
+                const jsonData2 = await data2.json();
+        
+                console.log(jsonData1, jsonData2);
+            } catch (error) {
+                console.error("데이터를 가져오는 데 오류가 발생했습니다:", error);
+            }
+        }
+        
+        fetchData();
+        ```
+        
+- **직렬 실행**
+    - `await`를 사용하면 각 비동기 작업이 순차적으로 실행된다. 이전 작업이 완료되어야만 다음 작업이 시작되므로, 병렬 실행보다 시간이 더 걸릴 수 있다.
+        
+        ```tsx
+        async function fetchData() {
+            const url1 = "https://api.example.com/data1";
+            const url2 = "https://api.example.com/data2";
+        
+            try {
+                // 여러 비동기 작업을 병렬로 실행
+                const [data1, data2] = await Promise.all([fetch(url1), fetch(url2)]);
+                
+                // 데이터 처리
+                const jsonData1 = await data1.json();
+                const jsonData2 = await data2.json();
+        
+                console.log(jsonData1, jsonData2);
+            } catch (error) {
+                console.error("데이터를 가져오는 데 오류가 발생했습니다:", error);
+            }
+        }
+        
+        fetchData();
+        ```
+
+---
 
 ### 사진
 ![image](https://github.com/user-attachments/assets/515dd048-7435-4b0b-8b8b-5a438f59b98e)
